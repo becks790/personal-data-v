@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment II</title>
+  </head>
+  <body>
+    <!-- Assignment 2 -->
+    <div class="container" style="background-color: brown; height: 630px">
+      <div
+        class="personal-Data"
+        style="
+          background-color: rgb(40, 119, 165);
+          width: fit-content;
+          margin-left: 10px;
+          padding: 5px 5px;
+          font-size: 30px;
+        "
+      >
+        <b>Personal Data</b>
+      </div>
+      <br />
+
+      <div
+        class="yourName"
+        style="
+          background-color: rgb(33, 126, 163);
+          width: fit-content;
+          height: 30px;
+          margin-left: 10px;
+          margin-bottom: 5px;
+          border-radius: 10px;
+        "
+      >
+        <h3 style="margin: 0px 5px; padding-top: 5px"><b>Your Name</b></h3>
+      </div>
+
+      <form>
+        <div
+          class="personalData"
+          style="
+            background-color: rgb(211, 165, 39);
+            height: 100px;
+            margin-right: 10px;
+            margin-left: 10px;
+          "
+        >
+          <table style="padding-left: 10px; padding-top: 40px">
+            <tr>
+              <td><label for="firstName">First Name :</label></td>
+              <td>
+                <input
+                  type="text"
+                  id="firstName"
+                  placeholder="ex.ahmed"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="secondtName">second Name :</label></td>
+              <td>
+                <input
+                  type="text"
+                  id="secondtName"
+                  placeholder="ex.bahnasy"
+                  required
+                />
+              </td>
+            </tr>
+          </table>
+        </div>
+        <br />
+        <br />
+        <table style="margin: 0 10px">
+          <tr>
+            <td><label for="phone">Your Phone :</label></td>
+            <td><input type="tel" name="phone" id="phone" required /></td>
+          </tr>
+          <tr>
+            <td><label for="mail">Email :</label></td>
+            <td><input type="email" name="mail" id="mail" required /></td>
+          </tr>
+          <tr>
+            <td><label for="password">Password :</label></td>
+            <td>
+              <input type="password" name="password" id="password" required />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="rePassword">Re-Password :</label></td>
+            <td>
+              <input
+                type="password"
+                name="rePassword"
+                id="rePassword"
+                required
+              />
+            </td>
+          </tr>
+        </table>
+        <br />
+        <br />
+        <div class="radioElement" style="margin: 0 10px">
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="male">Male</label>
+          <br />
+
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label>
+        </div>
+        <br />
+
+        <div class="checkBox" style="margin: 0 10px">
+          <input
+            type="checkbox"
+            id="student"
+            name="education"
+            value="student"
+          />
+          <label for="student">Student</label>
+          <br />
+
+          <input
+            type="checkbox"
+            id="graduated"
+            name="education"
+            value="graduated"
+          />
+          <label for="graduated">Graduated</label>
+        </div>
+
+        <br />
+
+        <select name="university" id="university" style="margin: 0 10px">
+          <optgroup label="Cairo">
+            <option value="auc">AUC</option>
+            <option value="bue">BUE</option>
+          </optgroup>
+          <optgroup label="New Cairo">
+            <option value="guc">GUC</option>
+            <option value="future">Future</option>
+          </optgroup>
+        </select>
+        <br />
+        <div class="submitBtn" style="margin: 0 10px">
+          <input
+            type="image"
+            src="./images/submit-button-png-5.png"
+            alt="submit"
+            width="75"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
